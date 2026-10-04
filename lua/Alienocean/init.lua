@@ -2,7 +2,7 @@ local Alienocean = {}
 Alienocean.name = "Alienocean"
 --- @class ColourConfig colorscheme options
 local defaults = {
-	transparent = true, -- set transparent bg hl
+	transparent = false, -- set transparent bg hl
 	aggressive_spell = false, -- display colors for spellcheck
 	allowTextStyling = true,
 	overrides = false,
