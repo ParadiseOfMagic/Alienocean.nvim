@@ -1,6 +1,8 @@
 # About this theme
 This dark Neovim theme uses 9 colours and is based on the Evangelion colourscheme, so it has support for FZF,Blink,Cmp,Lazy and Mason.
 All colours can be seen in <a href="lua/Alienocean/palette.lua">palette.lua</a>.
+
+[Demo](https://asciinema.org/a/v4rtcZgB5A2gE5Pt?t=10)
 ## How to install this theme
 
 ```lua
@@ -25,6 +27,8 @@ return
   },
   lazy = false,
   priority = 1000,
+  -- set transparency (Causes Neovim to use the terminal/gui's bg colour)
+  transparent = false
   opts = {
     overrides = { --Use this to change a certain highlight group
       normal = { fg = "#999999", bg = "#00001b", undercurl = true },
